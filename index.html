@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="./public/bootstrap/bootstrap-5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./public/css/stylesheet.css">
+</head>
+<body>
+    <div class="position-absolute" style="height: 100%; width: 100%; z-index: 2; display: none;" id="popUpPar">
+        <strong class="position-absolute" style="right: 10px; top: 10px; cursor: pointer; z-index: 2;" id="closeBtn">X</strong>
+		<div id="popUp" class="container m-0 p-0 top-50 start-50 translate-middle" style="position: absolute; display: flex; z-index: 2;">
+			<div class="text-center bg-light p-1 m-0 position-absolute top-50 start-50 translate-middle rounded shadow container-fluid" id="popUpBg">
+				<div class="container mt-3 mb-3 p-0" id="popUpContentBG">
+                    <img src="./public/img/phoenix.gif" alt=""style="height: 130px; width: 130px;">
+					<div class="text-center align-self-center" id="Question">
+                        <p class="mb-0">Will you be my <strong>Mrs.Choi</strong> to my <strong>Mr.Choi</strong> in Valorant?</p>
+                        <!-- <p class="postscript">( p.s u dont have to change ur ign )</p> -->
+                    </div>
+                    
+                    <div class="d-flex justify-content-center flex-wrap align-items-center" id="btnDiv">
+                        <button class="btn border-0 btn-success m-1 container-sm p-0" id="yesBtn" style="height: 48px; width: 90px; font-size: 14px;">YES</button>
+                        <button class="btn border-0 btn-danger m-1 container-sm w-auto ps-2 pe-2" id="noBtn" style="height: 48px; font-size: 14px;">NO</button>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="position-absolute" style="height: 100%; width: 100%; z-index: 2; display: none;" id="sheSaidYesPar">
+        <strong class="position-absolute" style="right: 10px; top: 10px; cursor: pointer; z-index: 2;" id="closeYesBtn">X</strong>
+		<div id="sheSaidYes" class="container m-0 p-0 top-50 start-50 translate-middle" style="position: absolute; display: flex; z-index: 2;">
+			<div class="text-center p-1 m-0 position-absolute top-50 start-50 translate-middle shadow container-fluid" id="sheSaidYesBG">
+				<div class="container mt-3 mb-3 p-0" id="popUpContentBG">
+					<div class="text-center align-self-center">
+                        <!-- <p class="display-1">YEY!😍</p> -->
+                            <div class="d-flex justify-content-center">
+                                <img src="./public/img/clove.gif" alt=""style="height: 130px; width: 130px;">
+                                <img src="./public/img/omen.gif" alt="" style="height: 130px; width: 130px;">
+                            </div>
+                        <p style="font-size: 68px;">YEY!😍</p>
+                        <p class="">😎 heres my ign po <strong class="border">Tinky Winky#choi</strong> and my <a href="https://discordapp.com/users/128503228106014721">Discord</a> to see what games im currently playing in my free time🤗</p>
+                        <p> P.S u are now obligated to invite choi everytime u play valo, joke lang, pero pls do, i want to play with u bahalag ls</p>
+                        <p> P.P.S i will only buy u skins if i have money po hehe</p>
+                        <!-- <p class="postscript">( p.s u dont have to change ur ign )</p> -->
+                    </div>
+                    
+                    <!-- <div class="d-flex justify-content-center flex-wrap align-items-center" id="btnDiv">
+                        <button class="btn border-0 btn-success m-1 container-sm p-0" id="yesBtn" style="height: 48px; width: 90px; font-size: 14px;">YES</button>
+                        <button class="btn border-0 btn-danger m-1 container-sm w-auto ps-2 pe-2" id="noBtn" style="height: 48px; font-size: 14px;">NO</button>
+                    </div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+    
+        <div class="position-absolute top-50 start-50 translate-middle pt-5 pb-5 w-100" id="mainDiv">
+            <div class="d-flex flex-column justify-content-center">
+                <div class="text-center align-self-center" id="titleDiv">
+                    <strong>Hi Bossing!</strong>
+                </div>
+                <div class="text-center align-self-center" id="MessageDiv">
+                    <i>I miss you po </i><strong style="font-size: 25px;">🫶</strong>
+                    <p>I know youre going through a lot right now, but itll be okay soon. 
+                        Know that im here if need mo ng ka talk or ka-chika<strong style="font-size: 25px;">🤗</strong></p>
+                    <p class="mt-5">I just have one thing to ask you...</p>
+                    <img src="./public/img/doddle.png" alt="" style="height: 55px;width: 166px;">
+                </div>
+                
+                <!-- <button class="btn btn-success w-50 align-self-center mt-1 border-0" id="proceed">
+                    Click me
+                </button> -->
+                
+                <div id="proceed">
+                    
+                    <div class="container" id="valoAgents">
+                    <!-- &nbsp; -->
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    
+    
+
+    <script src="./public/canvas-confetti-master/canvas-confetti-master/dist/confetti.browser.js"></script>
+    <script src="./public/bootstrap/bootstrap-5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="./public/js/script.js"></script>
+</body>
+</html>
