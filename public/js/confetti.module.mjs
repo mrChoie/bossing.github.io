@@ -1,3 +1,7 @@
+// canvas-confetti v1.9.3 built on 2025-05-18T06:28:50.922Z
+var module = {};
+
+// source content
 /* globals Map */
 
 (function main(global, module, isWorker, workerSize) {
@@ -877,3 +881,8 @@
 
   return this || {};
 })(), module, false));
+
+// end source content
+
+export default module.exports;
+export var create = module.exports.create;
